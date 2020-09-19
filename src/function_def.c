@@ -7,7 +7,7 @@ float area_of_circle(int radius)
 
 float area_of_triangle(int base, int height)
   { 
-    return (3.14*r*r);
+    return (0.5*base*height);
   }
 
 int area_of_square(int side_length)
