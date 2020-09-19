@@ -43,7 +43,7 @@ int main()
                   printf("Enter the temperature in Kelvin:  ");
                   int temperatureK;
                   scanf("%d",&temperatureK);
-                  printf("%d Kelvin = %d Celcius\n\n",temperatureK,KelvinTOCelcius(temperatureK));
+                  printf("%d Kelvin = %d Celcius\n\n",temperatureK,KelvinToCelcius(temperatureK));
                   break;
               case 6:
                   printf("Enter the number to be checked for palindrome:  ");
