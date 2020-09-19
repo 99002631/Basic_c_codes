@@ -29,10 +29,16 @@ int area_of_square(int side_length);
 /**
 *  converts celcius to Kelvin temperarture and returns the result
 */
-int CelciusToKelvin(int temperature);
+int CelciusToKelvin(int temperatureC);
 
-int KelvinToCelcius(int temperature);
+/**
+*  converts Kelvin to celcius temperarture and returns the result
+*/
+int KelvinToCelcius(int temperatureK);
 
+/**
+*  checks for palindrome and returns the result
+*/
 int palindrome(int check_number);
 
 #endif  /* #define __FUNCTION_DEF_H__ */
