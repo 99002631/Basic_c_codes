@@ -15,7 +15,7 @@ int area_of_square(int side_length)
   return (side_length*side_length);
 }
 
-int CelciusToKelvin(int temperature);
+int CelciusToKelvin(int temperature)
 {
   return (temperature+273);
 }
