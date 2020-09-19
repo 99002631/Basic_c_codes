@@ -23,9 +23,9 @@ int main() {
   
   /* Add your test functions in this format for testing*/
   CU_add_test(suite, "area_of_circle", test_area_of_circle);
-  CU_add_test(suite, "area_of_triangle", area_of_triangle);
-  CU_add_test(suite, "area_of_square", area_of_square);
-  CU_add_test(suite, "CelciusToKelvin", CelciusToKelvin);
+  CU_add_test(suite, "area_of_triangle", test_area_of_triangle);
+  CU_add_test(suite, "area_of_square", test_area_of_square);
+  CU_add_test(suite, "CelciusToKelvin", test_CelciusToKelvin);
 
 
 /* Note: Do not edit START*/
