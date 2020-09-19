@@ -33,8 +33,14 @@ int main()
                   scanf("%d",&side_length);
                   printf("Area of Square = %d\n\n",area_of_square(side_length));
                   break;
+             case 4:
+                  printf("Enter the temperature in Celcius:  ");
+                  int temperature;
+                  scanf("%d",&temperature);
+                  printf("%d celcius = %d kelvin\n\n",temperature,CelciusToKelvin(temperature));
+                  break;
         
-            case 4:
+            case 5:
                 printf("\n\n\t\t\tCoding is Fun !\n\n\n");
                 exit(0);    // terminates the complete program execution
         }
