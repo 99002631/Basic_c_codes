@@ -19,3 +19,20 @@ int CelciusToKelvin(int temperature)
 {
   return (temperature+273);
 }
+
+int KelvinToCelcius(int temperature)
+{
+  return (temperature-273);
+}
+
+int palindrome(int check_number)
+{
+  int reversedInteger = 0, remainder;
+  while( check_number!=0 )
+    {
+        remainder = check_number%10;
+        reversedInteger = reversedInteger*10 + remainder;
+        check_number /= 10;
+    }
+  return reversedInteger;
+}
