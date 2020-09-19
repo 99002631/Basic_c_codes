@@ -1,5 +1,3 @@
-#include<stdio.h>
-
 int main()
 {
     printf("\n\n\t\tBasic C Program demonstrartion\n\n\n");
