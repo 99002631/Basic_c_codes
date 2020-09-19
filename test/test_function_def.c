@@ -67,7 +67,7 @@ void test_CelciusToKelvin(void) {
 }
 
 void test_KelvinToCelcius(void) {
-  CU_ASSERT(1 == CelciusToKelvin(274));
+  CU_ASSERT(2 == CelciusToKelvin(275));
   
 }
 
