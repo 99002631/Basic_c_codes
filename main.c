@@ -35,15 +35,15 @@ int main()
                   break;
             case 4:
                   printf("Enter the temperature in Celcius:  ");
-                  int temperature;
-                  scanf("%d",&temperature);
-                  printf("%d celcius = %d kelvin\n\n",temperature,CelciusToKelvin(temperature));
+                  int temperatureC;
+                  scanf("%d",&temperatureC);
+                  printf("%d celcius = %d kelvin\n\n",temperatureC,CelciusToKelvin(temperatureC));
                   break;
              case 5:
                   printf("Enter the temperature in Kelvin:  ");
-                  int temperature;
-                  scanf("%d",&temperature);
-                  printf("%d Kelvin = %d Celcius\n\n",temperature,KelvinTOCelcius(temperature));
+                  int temperatureK;
+                  scanf("%d",&temperatureK);
+                  printf("%d Kelvin = %d Celcius\n\n",temperatureK,KelvinTOCelcius(temperatureK));
                   break;
               case 6:
                   printf("Enter the number to be checked for palindrome:  ");
