@@ -10,6 +10,7 @@ void test_area_of_circle(void);
 void test_area_of_triangle(void);
 void test_area_of_square(void);
 void test_CelciusToKelvin(void);
+void test_KelvinToCelcius(void);
 void test_palindrome(void);
 /* Start of the application test */
 int main() {
@@ -26,6 +27,7 @@ int main() {
   CU_add_test(suite, "area_of_triangle", test_area_of_triangle);
   CU_add_test(suite, "area_of_square", test_area_of_square);
   CU_add_test(suite, "CelciusToKelvin", test_CelciusToKelvin);
+  CU_add_test(suite, "KelvinToCelcius", test_KelvinToCelcius);
   CU_add_test(suite, "palindrome",test_palindrome);
 
 
@@ -61,6 +63,11 @@ void test_area_of_square(void) {
 
 void test_CelciusToKelvin(void) {
   CU_ASSERT(274 == CelciusToKelvin(1));
+  
+}
+
+void test_KelvinToCelcius(void) {
+  CU_ASSERT(1 == KelvinToCelcius(274));
   
 }
 
