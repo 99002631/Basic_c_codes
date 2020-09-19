@@ -18,7 +18,7 @@ float area_of_circle(int radius);
 /**
 *  finds the area of triangle and returns the result
 */
-float area_of triangle(int base, int height);
+float area_of_triangle(int base, int height);
 
 /**
 *  finds area of square and returns the result
