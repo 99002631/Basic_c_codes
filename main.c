@@ -13,13 +13,13 @@ int main()
         
         switch(choice)
         {
-            case 1:
+            case 1:;
                   int radius;
                   printf("Enter the radius of circle:  ");
                   scanf("%d",&radius);
                   printf("Area of Circle = %.2f\n\n",area_of_circle(radius));
                   break;
-            case 2:
+            case 2:;
                   int base,height;
                   printf("Enter base length of triangle:  ");
                   scanf("%d",&base);
@@ -27,7 +27,7 @@ int main()
                   scanf("%d",&height);
                   printf("Area of Triangle = %.2f\n\n",area_of_triangle(base,height));
                   break;
-            case 3:
+            case 3:;
                   int side_length;
                   printf("Enter the side length of square:  ");
                   scanf("%d",&side_length);
