@@ -66,10 +66,6 @@ void test_CelciusToKelvin(void) {
   
 }
 
-void test_KelvinToCelcius(void) {
-  CU_ASSERT(2 == CelciusToKelvin(275));
-  
-}
 
 void test_palindrome(void) {
   CU_ASSERT(101 == palindrome(101));
