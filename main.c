@@ -3,8 +3,7 @@
 int main()
 {
     printf("\n\n\t\tBasic C Program demonstrartion\n\n\n");
-    int choice, num, i;
-    unsigned long int fact;
+    int choice;
 
     while(1)
     {
@@ -18,7 +17,7 @@ int main()
                   int radius;
                   printf("Enter the radius of circle:  ");
                   scanf("%d",&radius);
-                  area_of_circle(radius);
+                  printf("Area of Circle = %.2f\n\n",area_of_circle(radius));
                   break;
             case 2:
                   int base,height;
@@ -26,13 +25,13 @@ int main()
                   scanf("%d",&base);
                   printf("Enter height of triangle:  ");
                   scanf("%d",&height);
-                  area_of_triangle(base,height);
+                  printf("Area of Triangle = %.2f\n\n",area_of_triangle(base,height));
                   break;
             case 3:
                   int side_length;
                   printf("Enter the side length of square:  ");
                   scanf("%d",&side_length);
-                  area_of_square(side_length);
+                  printf("Area of Square = %d\n\n",area_of_square(side_length));
                   break;
         
             case 4:
