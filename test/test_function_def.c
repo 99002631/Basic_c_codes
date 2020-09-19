@@ -43,7 +43,7 @@ int main() {
 
 /* Write all the test functions */ 
 void test_area_of_circle(void) {
-  CU_ASSERT(31.4 == area_of_circle(10));
+  CU_ASSERT(31.40 == area_of_circle(10));
   
   /* Dummy fail*/
 }
