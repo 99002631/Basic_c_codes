@@ -25,4 +25,9 @@ float area_of_triangle(int base, int height);
 */
 int area_of_square(int side_length);
 
+/**
+*  converts celcius to Kelvin temperarture and returns the result
+*/
+int CelciusToKelvin(int temperature);
+
 #endif  /* #define __FUNCTION_DEF_H__ */
