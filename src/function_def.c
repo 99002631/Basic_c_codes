@@ -15,14 +15,14 @@ int area_of_square(int side_length)
   return (side_length*side_length);
 }
 
-int CelciusToKelvin(int temperature)
+int CelciusToKelvin(int temperatureC)
 {
-  return (temperature+273);
+  return (temperatureC+273);
 }
 
-int KelvinToCelcius(int temperature)
+int KelvinToCelcius(int temperatureK)
 {
-  return (temperature-273);
+  return (temperatureK-273);
 }
 
 int palindrome(int check_number)
