@@ -33,6 +33,6 @@ int CelciusToKelvin(int temperature);
 
 int KelvinToCelcius(int temperature);
 
-int palindrome(int check_number)
+int palindrome(int check_number);
 
 #endif  /* #define __FUNCTION_DEF_H__ */
